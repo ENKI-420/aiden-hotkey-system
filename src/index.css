@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.neon-glow {
+    filter: drop-shadow(0 0 5px rgba(43, 210, 210, 0.233)) drop-shadow(0 0 10px cyan);
+  }
