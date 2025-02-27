@@ -8,6 +8,9 @@ Author: Norton Healthcare
 Version: 1.0
 """
 
+import openai
+from openai import OpenAI
+import openai.error  # Ensure this line works
 import streamlit as st
 import requests
 import pandas as pd
